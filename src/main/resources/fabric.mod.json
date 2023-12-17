@@ -17,6 +17,9 @@
     ],
     "main": [
       "mc.mdteam.extras.AITExtras"
+    ],
+    "fabric-datagen": [
+      "mc.mdteam.extras.datagen.ExtrasDataGenerator"
     ]
   },
   "mixins": [
