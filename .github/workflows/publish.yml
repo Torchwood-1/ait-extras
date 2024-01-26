@@ -11,6 +11,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/release'
     steps:
       - name: Check Environment Variables
         run: env
@@ -30,11 +31,14 @@ jobs:
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
 
+      #- name: Run Datagen
+      #  run: ./gradlew runDatagen
+
       - name: Build
         run: ./gradlew clean build
 
       - name: Publish (CurseForge/Modrinth/GitHub)
-        uses: Kir-Antipov/mc-publish@v3.2                                   #The specified MC-Publish GitHub Action in the version 3.2
+        uses: Kir-Antipov/mc-publish@v3.3.0                                   #The specified MC-Publish GitHub Action in the version 3.2
         with:
           #          curseforge-id: 123456                                             #The id of your CurseForge project
           #          curseforge-token: "${{env.CURSEFORGE_TOKEN}}"
@@ -45,7 +49,7 @@ jobs:
           github-token: "${{secrets.GITHUB_TOKEN}}"
 
           github-generate-changelog: true
-          version-type: beta
+          version-type: release
 
-          loaders: forge
+          loaders: fabric
           java: "${{env.JAVA_VERSION}}"
