@@ -1,6 +1,7 @@
 package mc.mdteam.extras.client;
 
 import mc.mdteam.extras.client.variant.ClientDimensionalVariant;
+import mc.mdteam.extras.client.variant.ClientEleventhVariant;
 import mdteam.ait.client.registry.ClientExteriorVariantRegistry;
 import mdteam.ait.client.registry.exterior.ClientExteriorVariantSchema;
 import net.fabricmc.api.ClientModInitializer;
@@ -12,5 +13,6 @@ public class AITExtrasClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ClientExteriorVariantRegistry.register(new ClientDimensionalVariant());
+        ClientExteriorVariantRegistry.register(new ClientEleventhVariant());
     }
 }

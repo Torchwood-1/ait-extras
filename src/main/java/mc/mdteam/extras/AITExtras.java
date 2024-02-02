@@ -5,6 +5,7 @@ import io.wispforest.owo.itemgroup.OwoItemGroup;
 import io.wispforest.owo.registration.reflect.FieldRegistrationHandler;
 import mc.mdteam.extras.blocks.ExtrasBlocks;
 import mc.mdteam.extras.tardis.variant.DimensionalVariant;
+import mc.mdteam.extras.tardis.variant.EleventhVariant;
 import mdteam.ait.AITMod;
 import mdteam.ait.core.AITBlocks;
 import mdteam.ait.core.AITItems;
@@ -26,6 +27,7 @@ public class AITExtras implements ModInitializer {
         FieldRegistrationHandler.register(ExtrasBlocks.class, MOD_ID, false);
 
         ExteriorVariantRegistry.register(new DimensionalVariant());
+        ExteriorVariantRegistry.register(new EleventhVariant());
 
         EXTRAS_ITEM_GROUP.initialize();
     }
