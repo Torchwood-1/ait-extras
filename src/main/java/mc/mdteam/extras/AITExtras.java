@@ -4,9 +4,11 @@ import io.wispforest.owo.itemgroup.Icon;
 import io.wispforest.owo.itemgroup.OwoItemGroup;
 import io.wispforest.owo.registration.reflect.FieldRegistrationHandler;
 import mc.mdteam.extras.blocks.ExtrasBlocks;
+import mc.mdteam.extras.tardis.variant.DimensionalVariant;
 import mdteam.ait.AITMod;
 import mdteam.ait.core.AITBlocks;
 import mdteam.ait.core.AITItems;
+import mdteam.ait.registry.ExteriorVariantRegistry;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
@@ -22,6 +24,8 @@ public class AITExtras implements ModInitializer {
     @Override
     public void onInitialize() {
         FieldRegistrationHandler.register(ExtrasBlocks.class, MOD_ID, false);
+
+        ExteriorVariantRegistry.register(new DimensionalVariant());
 
         EXTRAS_ITEM_GROUP.initialize();
     }
