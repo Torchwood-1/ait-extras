@@ -1,5 +1,5 @@
-# 1.0
-- Add `Classic Neon` interior by Keystone
-- Add `Dimensional` exterior by Addie
-- Add `Eleventh` exterior by SpartanGamerzFTB
-- Add Hartnell Roundels
+# 1.1
+- Add `Mystical Desktop` by Glados
+- Add `Classic Mystical Desktop` by Glados
+- Add `Mystical Exterior` by Glados
+- Update `Eleventh` by SpartanGamezFTB
