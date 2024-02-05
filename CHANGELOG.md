@@ -1,5 +1,2 @@
-# 1.1
-- Add `Mystical Desktop` by Glados
-- Add `Classic Mystical Desktop` by Glados
-- Add `Mystical Exterior` by Glados
-- Update `Eleventh` by SpartanGamezFTB
+# 1.1.1
+- Update AIT version to `1.2.31`
