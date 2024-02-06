@@ -4,7 +4,7 @@ import mc.mdteam.extras.AITExtras;
 import mdteam.ait.registry.DoorRegistry;
 import mdteam.ait.tardis.variant.door.DoorSchema;
 import mdteam.ait.tardis.variant.door.PoliceBoxCoralDoorVariant;
-import mdteam.ait.tardis.variant.exterior.box.PoliceBoxVariant;
+import mdteam.ait.tardis.variant.exterior.PoliceBoxVariant;
 import net.minecraft.util.Identifier;
 
 public class EleventhVariant extends PoliceBoxVariant {
