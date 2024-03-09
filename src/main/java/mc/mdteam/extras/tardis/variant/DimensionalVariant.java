@@ -1,7 +1,7 @@
 package mc.mdteam.extras.tardis.variant;
 
 import mc.mdteam.extras.AITExtras;
-import mdteam.ait.tardis.variant.exterior.PoliceBoxVariant;
+import mdteam.ait.tardis.exterior.variant.box.PoliceBoxVariant;
 import net.minecraft.util.Identifier;
 
 public class DimensionalVariant extends PoliceBoxVariant {

@@ -4,16 +4,9 @@ import mc.mdteam.extras.AITExtras;
 import mc.mdteam.extras.blocks.ExtrasBlocks;
 import mc.mdteam.extras.datagen.datagen_providers.ExtrasLanguageProvider;
 import mc.mdteam.extras.datagen.datagen_providers.ExtrasModelProvider;
-import mdteam.ait.AITMod;
-import mdteam.ait.core.AITBlocks;
-import mdteam.ait.core.AITItems;
-import mdteam.ait.core.AITSounds;
-import mdteam.ait.datagen.LanguageType;
-import mdteam.ait.datagen.datagen_providers.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;

@@ -13,8 +13,8 @@ import net.fabricmc.api.Environment;
 public class AITExtrasClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        ClientExteriorVariantRegistry.register(new ClientDimensionalVariant());
-        ClientExteriorVariantRegistry.register(new ClientEleventhVariant());
-        ClientExteriorVariantRegistry.register(new ClientMysticalVariant());
+        ClientExteriorVariantRegistry.getInstance().register(new ClientDimensionalVariant());
+        ClientExteriorVariantRegistry.getInstance().register(new ClientEleventhVariant());
+        ClientExteriorVariantRegistry.getInstance().register(new ClientMysticalVariant());
     }
 }

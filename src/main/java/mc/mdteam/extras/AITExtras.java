@@ -27,9 +27,10 @@ public class AITExtras implements ModInitializer {
     public void onInitialize() {
         FieldRegistrationHandler.register(ExtrasBlocks.class, MOD_ID, false);
 
-        ExteriorVariantRegistry.register(new DimensionalVariant());
-        ExteriorVariantRegistry.register(new EleventhVariant());
-        ExteriorVariantRegistry.register(new MysticalVariant());
+        // TODO - These can be removed now as datapack support for exterior variants is available and is recommended.
+        ExteriorVariantRegistry.getInstance().register(new DimensionalVariant());
+        ExteriorVariantRegistry.getInstance().register(new EleventhVariant());
+        ExteriorVariantRegistry.getInstance().register(new MysticalVariant());
 
         EXTRAS_ITEM_GROUP.initialize();
     }

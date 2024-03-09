@@ -1,7 +1,7 @@
 package mc.mdteam.extras.datagen.datagen_providers;
 
 import io.wispforest.owo.itemgroup.OwoItemGroup;
-import mdteam.ait.datagen.LanguageType;
+import mc.mdteam.extras.datagen.LanguageType;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.block.Block;
