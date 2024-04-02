@@ -5,9 +5,9 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <option name="defaultObfuscationEnv" value="named:intermediary" />
-        <option name="inMapFileNamedIntermediary" value="C:\Users\james\.gradle\caches\fabric-loom\1.20.1\net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2\mappings.tiny" />
-        <option name="outMapFileNamedIntermediary" value="C:\Users\james\IdeaProjects\ait-extras\build\loom-cache\mixin-map-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.main.tiny" />
-        <option name="outRefMapFile" value="C:\Users\james\IdeaProjects\ait-extras\build\classes\java\main\ait-extras-refmap.json" />
+        <option name="inMapFileNamedIntermediary" value="C:\Users\jacob\.gradle\caches\fabric-loom\1.20.1\net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2\mappings.tiny" />
+        <option name="outMapFileNamedIntermediary" value="D:\mod workspaces\ait-extras\build\loom-cache\mixin-map-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.main.tiny" />
+        <option name="outRefMapFile" value="D:\mod workspaces\ait-extras\build\classes\java\main\ait-extras-refmap.json" />
         <option name="quiet" value="true" />
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.wispforest/owo-lib/0.11.1+1.20/7b1250bec079bd2a116fcdd453f42f5929b8cfe4/owo-lib-0.11.1+1.20.jar" />

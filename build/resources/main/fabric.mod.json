@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "ait-extras",
-  "version": "1.0",
+  "version": "1.1.1",
   "name": "ait-extras",
   "description": "",
   "authors": [],
@@ -17,13 +17,16 @@
     ],
     "main": [
       "mc.mdteam.extras.AITExtras"
+    ],
+    "fabric-datagen": [
+      "mc.mdteam.extras.datagen.ExtrasDataGenerator"
     ]
   },
   "mixins": [
     "ait-extras.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.15.2",
+    "fabricloader": ">=0.15.3",
     "fabric": "*",
     "minecraft": "1.20.1"
   }
